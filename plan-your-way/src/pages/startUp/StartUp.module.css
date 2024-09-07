@@ -1,0 +1,34 @@
+.main-content {
+    align-items: center;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1s forwards;
+}
+
+.plan {
+    padding-left: 1rem;
+}
+
+.it {
+    padding-right: 1rem;
+}
+
+.your {
+    padding-left: 1rem;
+}
+
+.way {
+    padding-right: 1rem;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
