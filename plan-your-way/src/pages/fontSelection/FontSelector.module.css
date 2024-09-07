@@ -1,0 +1,43 @@
+.inputs input {
+    text-align: center;
+}
+
+.displayer {
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: black;
+    height: 50%;
+}
+
+.Diamond {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid black;
+    transform: rotate(45deg);
+    position: relative;
+}
+
+.Circle {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1s forwards;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
