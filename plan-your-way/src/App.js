@@ -13,6 +13,16 @@ import { AppContext } from './components/provider/AppContext';
 import AppContextDisplayer from './components/provider/AppContextDisplayer';
 import Footer from './components/footer/Footer';
 //QR CODE IF THE SITE IS NOT ON MOBILE
+//TODO: Fix buttons and title showing and not shpwing
+//TODO: fix displayer not being properly sized when phone changes
+//TODO: displayer for planners ticket PYW-02
+//TODO: Show colors in the planner
+//TODO: fix styling throughout
+//TODO: SessionStorage instead of state since when you reload everything unsaves
+//TODO: Title page needs more styling
+
+
+
 function App() {
   const [showPlanner, setShowPlanner] = useState(false);
   const { appData } = useContext(AppContext)
